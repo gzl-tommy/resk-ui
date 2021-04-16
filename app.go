@@ -5,6 +5,7 @@ import (
 	"github.com/gzl-tommy/infra"
 	"github.com/gzl-tommy/infra/base"
 	_ "github.com/gzl-tommy/resk/core/envelopes"
+	_ "gzl-tommy/resk-ui/views"
 )
 
 func init() {
