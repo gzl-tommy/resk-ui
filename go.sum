@@ -229,8 +229,12 @@ github.com/gzl-tommy/account v0.1.0 h1:aDg0WYoQCDc4auy5ckG7DamIqGgF46HFYuVVGM9MI
 github.com/gzl-tommy/account v0.1.0/go.mod h1:nAP79W4NOesTl/o7Zw4AsjMbkhpiOPNBCzH7XeqBgEQ=
 github.com/gzl-tommy/infra v0.1.1 h1:e12qS/8RRax6bvWPOEAQkeKj7Ge+cixko6iVqY0FzOc=
 github.com/gzl-tommy/infra v0.1.1/go.mod h1:YE6m9Fn2472p3HRywsmCuk39pvmhCNgNEh4gI4num6E=
+github.com/gzl-tommy/infra v0.1.3 h1:VMVsSFaO9pPU18zYfSDzH0+wl/5ro600WPw8wRKKhGM=
+github.com/gzl-tommy/infra v0.1.3/go.mod h1:YE6m9Fn2472p3HRywsmCuk39pvmhCNgNEh4gI4num6E=
 github.com/gzl-tommy/resk v0.1.0 h1:71msrVtGuAIwcJdTYzNUz1bPyF6Bd4qaj9RD12zgmNk=
 github.com/gzl-tommy/resk v0.1.0/go.mod h1:ICW1U63hkYtySyEj2YH/2CwHDKt4dNGZdRfmQklReso=
+github.com/gzl-tommy/resk v0.1.1 h1:OgBMfK5FDpGvtqGNt2FmLB9ouKMGrF8o/ATLEb+ct/c=
+github.com/gzl-tommy/resk v0.1.1/go.mod h1:IEMsSDjmCnRBy5Bh4D7HYrueq6m/lcayT/JNNzDyBj0=
 github.com/hashicorp/consul/api v1.3.0/go.mod h1:MmDNSzIMUjNpY/mQ398R4bk2FnqQLoPndWW5VkKPlCE=
 github.com/hashicorp/consul/api v1.8.0/go.mod h1:sDjTOq0yUyv5G4h+BqSea7Fn6BU+XbolEz1952UB+mk=
 github.com/hashicorp/consul/sdk v0.3.0/go.mod h1:VKf9jXwCTEY1QZP2MOLRhb5i/I/ssyNV1vwHyQBF0x8=

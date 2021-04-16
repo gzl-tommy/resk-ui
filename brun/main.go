@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/tietang/props/ini"
-	"github.com/tietang/props/kvs"
-	_ "github.com/gzl-tommy/resk"
 	"github.com/gzl-tommy/infra"
 	"github.com/gzl-tommy/infra/base"
+	"github.com/tietang/props/ini"
+	"github.com/tietang/props/kvs"
+	_ "gzl-tommy/resk-ui"
 )
 
 func main() {
