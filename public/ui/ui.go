@@ -5,7 +5,7 @@ import (
 	"github.com/kataras/iris/v12"
 	"github.com/shopspring/decimal"
 	log "github.com/sirupsen/logrus"
-	"github.com/gzl-tommy/resk/core/users"
+	"gzl-tommy/resk-ui/core/users"
 	"github.com/gzl-tommy/infra"
 	"github.com/gzl-tommy/infra/base"
 	"github.com/gzl-tommy/resk/services"

@@ -2,7 +2,7 @@ package views
 
 import (
 	"github.com/kataras/iris/v12"
-	"github.com/gzl-tommy/resk/core/users"
+	"gzl-tommy/resk-ui/core/users"
 	"github.com/gzl-tommy/infra"
 	"github.com/gzl-tommy/infra/base"
 	"path/filepath"
