@@ -3,8 +3,8 @@ package main
 import (
 	"github.com/gzl-tommy/infra"
 	"github.com/gzl-tommy/infra/base"
-	"github.com/tietang/props/ini"
-	"github.com/tietang/props/kvs"
+	"github.com/tietang/props/v3/ini"
+	"github.com/tietang/props/v3/kvs"
 	_ "gzl-tommy/resk-ui"
 )
 
