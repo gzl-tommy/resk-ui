@@ -7,9 +7,9 @@ require (
 	github.com/Shopify/goreferrer v0.0.0-20210407190730-c9ba3cb61340 // indirect
 	github.com/go-playground/validator/v10 v10.5.0 // indirect
 	github.com/go-sql-driver/mysql v1.6.0 // indirect
-	github.com/gzl-tommy/account v0.1.3
-	github.com/gzl-tommy/infra v0.1.7
-	github.com/gzl-tommy/resk v0.1.4
+	github.com/gzl-tommy/account v0.1.4
+	github.com/gzl-tommy/infra v0.1.8
+	github.com/gzl-tommy/resk v0.1.5
 	github.com/iris-contrib/jade v1.1.4 // indirect
 	github.com/iris-contrib/schema v0.0.6 // indirect
 	github.com/kataras/golog v0.1.7 // indirect
@@ -21,6 +21,7 @@ require (
 	github.com/shopspring/decimal v1.2.0
 	github.com/sirupsen/logrus v1.8.1
 	github.com/tietang/dbx v1.0.1
+	github.com/tietang/go-eureka-client/eureka v0.0.0-20190327071554-ed5a2bb78851 // indirect
 	github.com/tietang/props/v3 v3.1.0
 	golang.org/x/crypto v0.0.0-20210415154028-4f45737414dc // indirect
 	golang.org/x/net v0.0.0-20210415231046-e915ea6b2b7d // indirect

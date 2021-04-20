@@ -39,6 +39,8 @@ github.com/alecthomas/units v0.0.0-20151022065526-2efee857e7cf/go.mod h1:ybxpYRF
 github.com/alecthomas/units v0.0.0-20190717042225-c3de453c63f4/go.mod h1:ybxpYRFXyAe+OPACYpWeL0wqObRcbAqCMya13uyzqw0=
 github.com/alecthomas/units v0.0.0-20190924025748-f65c72e2690d h1:UQZhZ2O0vMHr2cI+DC1Mbh0TJxzA3RcLoMsFw+aXw7E=
 github.com/alecthomas/units v0.0.0-20190924025748-f65c72e2690d/go.mod h1:rBZYJk541a8SKzHPHnH3zbiI+7dagKZ0cgpgrD7Fyho=
+github.com/alecthomas/units v0.0.0-20210208195552-ff826a37aa15 h1:AUNCr9CiJuwrRYS3XieqF+Z9B9gNxo/eANAJCF2eiN4=
+github.com/alecthomas/units v0.0.0-20210208195552-ff826a37aa15/go.mod h1:OMCwj8VM1Kc9e19TLln2VL61YJF0x1XFtfdL4JdbSyE=
 github.com/aliyun/alibaba-cloud-sdk-go v1.61.18/go.mod h1:v8ESoHo4SyHmuB4b1tJqDHxfTGEciD+yhvOU/5s1Rfk=
 github.com/andybalholm/brotli v1.0.1 h1:KqhlKozYbRtJvsPrrEeXcO+N2l6NYT5A2QAFmSULpEc=
 github.com/andybalholm/brotli v1.0.1/go.mod h1:loMXtMfwqflxFJPmdbJO0a3KNoPuLBgiu3qAvBg8x/Y=
@@ -140,6 +142,7 @@ github.com/gliderlabs/ssh v0.1.1/go.mod h1:U7qILu1NlMHj9FlMhZLlkCdDnU1DBEAqr0aev
 github.com/go-check/check v0.0.0-20180628173108-788fd7840127 h1:0gkP6mzaMqkmpcJYCFOLkIBwI7xFExG03bbkOkCvUPI=
 github.com/go-check/check v0.0.0-20180628173108-788fd7840127/go.mod h1:9ES+weclKsC9YodN5RgxqK/VD9HM9JsCSh7rNhMZE98=
 github.com/go-errors/errors v1.0.1/go.mod h1:f4zRHt4oKfwPJE5k8C9vpYG+aDHdBFUsgrm6/TyX73Q=
+github.com/go-ini/ini v1.42.0/go.mod h1:ByCAeIL28uOIIG0E3PJtZPDL8WnHpFKFOtgjp+3Ies8=
 github.com/go-ini/ini v1.57.0/go.mod h1:ByCAeIL28uOIIG0E3PJtZPDL8WnHpFKFOtgjp+3Ies8=
 github.com/go-ini/ini v1.62.0 h1:7VJT/ZXjzqSrvtraFp4ONq80hTcRQth1c9ZnQ3uNQvU=
 github.com/go-ini/ini v1.62.0/go.mod h1:ByCAeIL28uOIIG0E3PJtZPDL8WnHpFKFOtgjp+3Ies8=
@@ -253,12 +256,21 @@ github.com/grpc-ecosystem/grpc-gateway v1.9.0/go.mod h1:vNeuVxBJEsws4ogUvrchl83t
 github.com/grpc-ecosystem/grpc-gateway v1.9.5/go.mod h1:vNeuVxBJEsws4ogUvrchl83t/GYV9WGTSLVdBhOQFDY=
 github.com/gzl-tommy/account v0.1.3 h1:77ezCiHo+RyRb+ZxPWUMnbB6Nj+T8klgPebaEs9QcJc=
 github.com/gzl-tommy/account v0.1.3/go.mod h1:ObQjPhLYkgqa/7iZXL9fSdZ1nQjvYoyRF6KBItVO+Jw=
+github.com/gzl-tommy/account v0.1.4 h1:9TL5ynI5XzpvLTCgm9CYxZTv0l6SiyCkblcbVTBZCsA=
+github.com/gzl-tommy/account v0.1.4/go.mod h1:L3BFzc86FG1AsYGz7NAs3tjA1ZZk37xBYHfU/XI4/iU=
 github.com/gzl-tommy/go-eureka-client/eureka v0.0.0-20210419090704-f88bf25d8af0 h1:Rm9+MoLO3Q5FWx75HSsx5dd2U0ENmZNSs9xOZCmecOA=
 github.com/gzl-tommy/go-eureka-client/eureka v0.0.0-20210419090704-f88bf25d8af0/go.mod h1:I18BpxDDU/NAucSq5P+LYp6dcFYHt27uSQn4CLOSn5U=
+github.com/gzl-tommy/go-eureka-client/eureka v0.0.0-20210419141328-ed1742551740 h1:0q3Q3REV6l9kkbGuGWR0qdS/StgwFMMZ2E6uWJ5KpwA=
+github.com/gzl-tommy/go-eureka-client/eureka v0.0.0-20210419141328-ed1742551740/go.mod h1:P5et+C+iWQyNwSVC9oaRX8FlztFqPo52XFzfIyoC4to=
+github.com/gzl-tommy/infra v0.1.5/go.mod h1:HoaFinkXTUL85YLGfp8tLy2RdSoi/O31frXBsTv/0u0=
 github.com/gzl-tommy/infra v0.1.7 h1:z/K4gKfMtg7BXdXDRZSsXvMF5raCOIxqw6UJC4boezo=
 github.com/gzl-tommy/infra v0.1.7/go.mod h1:/T+jSCTwXrDgfrTzqHoS9n+qSeU5UC9LeQK4pKPkE3A=
+github.com/gzl-tommy/infra v0.1.8 h1:S7D97/Q9DOPQJanUsodniURqQkXKFgUSIt0YwVCQx5A=
+github.com/gzl-tommy/infra v0.1.8/go.mod h1:nqZG00c+1sZCFh+eiBq/wkkTKKJ1WTx1DV2aVrR8mNE=
 github.com/gzl-tommy/resk v0.1.4 h1:UrsP405FkaVW2hr4Vd40XLoF04zxuHQtWaf2toHmR60=
 github.com/gzl-tommy/resk v0.1.4/go.mod h1:LK8ECvYQIK4q7E9+1SRAM7vDRwaysrF1pZqtPdzpFus=
+github.com/gzl-tommy/resk v0.1.5 h1:1Q9DE/0iPQ7R5MC3+bUGUlsCuvifMz4lc6Qcnbjouu8=
+github.com/gzl-tommy/resk v0.1.5/go.mod h1:bCiqjb1NhTn9/HpUMK/ZB55cqTsQU7ScPaarVFTTn5g=
 github.com/hashicorp/consul/api v1.3.0/go.mod h1:MmDNSzIMUjNpY/mQ398R4bk2FnqQLoPndWW5VkKPlCE=
 github.com/hashicorp/consul/api v1.4.0/go.mod h1:xc8u05kyMa3Wjr9eEAsIAo3dg8+LywT5E/Cl7cNS5nU=
 github.com/hashicorp/consul/api v1.8.0/go.mod h1:sDjTOq0yUyv5G4h+BqSea7Fn6BU+XbolEz1952UB+mk=
@@ -599,6 +611,7 @@ github.com/shurcooL/sanitized_anchor_name v1.0.0/go.mod h1:1NzhyTcUVG4SuEtjjoZeV
 github.com/shurcooL/users v0.0.0-20180125191416-49c67e49c537/go.mod h1:QJTqeLYEDaXHZDBsXlPCDqdhQuJkuw4NOtaxYe3xii4=
 github.com/shurcooL/webdavfs v0.0.0-20170829043945-18c3829fa133/go.mod h1:hKmq5kWdCj2z2KEozexVbfEZIWiTjhE0+UjmZgPqehw=
 github.com/sirupsen/logrus v1.2.0/go.mod h1:LxeOpSwHxABJmUn/MG1IvRgCAasNZTLOkJPxbbu5VWo=
+github.com/sirupsen/logrus v1.4.0/go.mod h1:LxeOpSwHxABJmUn/MG1IvRgCAasNZTLOkJPxbbu5VWo=
 github.com/sirupsen/logrus v1.4.1/go.mod h1:ni0Sbl8bgC9z8RoU9G6nDWqqs/fq4eDPysMBDgk/93Q=
 github.com/sirupsen/logrus v1.4.2/go.mod h1:tLMulIdttU9McNUspp0xgXVQah82FyeX6MwdIuYE2rE=
 github.com/sirupsen/logrus v1.6.0/go.mod h1:7uNnSEd1DgxDLC74fIahvMZmmYsHGZGEOFrfsX/uA88=
@@ -649,8 +662,12 @@ github.com/templexxx/cpufeat v0.0.0-20180724012125-cef66df7f161/go.mod h1:wM7WEv
 github.com/templexxx/xor v0.0.0-20191217153810-f85b25db303b/go.mod h1:5XA7W9S6mni3h5uvOC75dA3m9CCCaS83lltmc0ukdi4=
 github.com/tietang/dbx v1.0.1 h1:ie6ltu2DmVbtW9rSg6mTu0mopqGEPwidBRI6KBb6TzQ=
 github.com/tietang/dbx v1.0.1/go.mod h1:ZpU3P954daOWJ8xP/wOoea+MfhBmMvPgkVhAkSFhetE=
+github.com/tietang/go-eureka-client/eureka v0.0.0-20190327071554-ed5a2bb78851/go.mod h1:ScRD9INdTdSgkQ2s8xpdNImDv7gYpXojwvnNaRtHLGM=
+github.com/tietang/go-utils v0.0.0-20190308094824-9e17fa5e3788/go.mod h1:EmWy+SRptLctharNPdiBqEAEMMmDzpdkuV9fJuCOvGo=
 github.com/tietang/go-utils v0.1.3 h1:P0tnKarw8HiadKvGon2PNeIjuPuD3/4c8tUzU3uTSio=
 github.com/tietang/go-utils v0.1.3/go.mod h1:rW3eBJ7CvTI0ThWf+1D/M149BTtfKPinL2Spuf0Qz8g=
+github.com/tietang/props v2.1.0+incompatible h1:3x/y3KSalqel3MK99pRYEcOxCcfmN5gHAeTUSRV+ecE=
+github.com/tietang/props v2.1.0+incompatible/go.mod h1:b8ul4MFNqJE9WnUcNu5fSsLm7+cLvDEVuKuV/SNlr2E=
 github.com/tietang/props v2.2.0+incompatible h1:5811UPfmQdir5uUsAJGDFbxy3j/FctNKQplNaKgbXbI=
 github.com/tietang/props v2.2.0+incompatible/go.mod h1:b8ul4MFNqJE9WnUcNu5fSsLm7+cLvDEVuKuV/SNlr2E=
 github.com/tietang/props/v3 v3.1.0 h1:IumnhXuU914w/8QZ1yWv5oVwpJluJE4k5XHPMRW1+EU=
@@ -668,6 +685,7 @@ github.com/valyala/bytebufferpool v1.0.0/go.mod h1:6bBcMArwyJ5K/AmCkWv1jt77kVWyC
 github.com/valyala/fasthttp v1.23.0 h1:0ufwSD9BhWa6f8HWdmdq4FHQ23peRo3Ng/Qs8m5NcFs=
 github.com/valyala/fasthttp v1.23.0/go.mod h1:0mw2RjXGOzxf4NL2jni3gUQ7LfjjUSiG5sskOUUSEpU=
 github.com/valyala/fastrand v0.0.0-20170531153657-19dd0f0bf014/go.mod h1:HWqCzkrkg6QXT8V2EXWvXCoow7vLwOFN002oeRzjapQ=
+github.com/valyala/fasttemplate v1.0.1/go.mod h1:UQGH1tvbgY+Nz5t2n7tXsz52dQxojPUpymEIMZ47gx8=
 github.com/valyala/fasttemplate v1.1.0/go.mod h1:UQGH1tvbgY+Nz5t2n7tXsz52dQxojPUpymEIMZ47gx8=
 github.com/valyala/fasttemplate v1.2.1 h1:TVEnxayobAdVkhQfrfes2IzOB6o+z4roRkPF52WA1u4=
 github.com/valyala/fasttemplate v1.2.1/go.mod h1:KHLXt3tVN2HBp8eijSv/kGJopbvo7S+qRAEEKiv+SiQ=
@@ -841,6 +859,8 @@ golang.org/x/sys v0.0.0-20210326220804-49726bf1d181/go.mod h1:h1NjWce9XRLGQEsW7w
 golang.org/x/sys v0.0.0-20210330210617-4fbd30eecc44/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
 golang.org/x/sys v0.0.0-20210415045647-66c3f260301c h1:6L+uOeS3OQt/f4eFHXZcTxeZrGCuz+CLElgEBjbcTA4=
 golang.org/x/sys v0.0.0-20210415045647-66c3f260301c/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
+golang.org/x/sys v0.0.0-20210419170143-37df388d1f33 h1:zah5VTTvBlVRELjcDwGLLaWRHZJQsBtplweVYCii0KM=
+golang.org/x/sys v0.0.0-20210419170143-37df388d1f33/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
 golang.org/x/term v0.0.0-20201117132131-f5c789dd3221/go.mod h1:Nr5EML6q2oocZ2LXRh80K7BxOlk5/8JxuGnuhpl+muw=
 golang.org/x/term v0.0.0-20201126162022-7de9c90e9dd1 h1:v+OssWQX+hTHEmOBgwxdZxK4zHq3yOs8F9J7mk0PY8E=
 golang.org/x/term v0.0.0-20201126162022-7de9c90e9dd1/go.mod h1:bj7SfCRtBDWHUb9snDiAeCFNEtKQo2Wmx5Cou7ajbmo=
