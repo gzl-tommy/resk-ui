@@ -21,11 +21,15 @@ build(){
     # 打包
      mv ${tname} ${TARGET_FILE_NAME}${EXT}
      if [[ ${GOOS} == "windows" ]];then
-        zip -r ${tname}.zip ${TARGET_FILE_NAME}${EXT} config.ini  ../public/
+        zip ${tname}.zip ${TARGET_FILE_NAME}${EXT} boot.ini        
      else
-        tar --exclude=*.bz2 --exclude=*.zip --exclude=*.git -cvjf ${tname}.tar.bz2  ${TARGET_FILE_NAME}${EXT} config.ini *.sh ../public/ -C ./
-     fi
-     mv ${TARGET_FILE_NAME}${EXT} ${tname}
+        tar --exclude=*.bz2 --exclude=*.zip --exclude=*.git -cvjf ${tname}.tar.bz2  ${TARGET_FILE_NAME}${EXT} boot.ini run.sh  -C ./
+        cp install.sh ${tname}.run
+        cat ${tname}.tar.bz2 >> ${tname}.run
+        chmod +x ${tname}.run
+        rm ${tname}.tar.bz2
+     fi 
+     mv ${TARGET_FILE_NAME}${EXT} ${tname}    
 }
 
 CGO_ENABLED=0
@@ -38,7 +42,7 @@ echo "-----------mac os 64------------"
 GOOS=darwin
 GOARCH=amd64
 EXT=
-build
+#build
 
 echo "-----------linux 64------------"
 #linux 64
@@ -53,9 +57,9 @@ echo "-----------windows 64------------"
 GOOS=windows
 GOARCH=amd64
 EXT='.exe'
-build
+#build
 
 echo "-----------windows 32------------"
 #32
 GOARCH=386
-build
+#build
